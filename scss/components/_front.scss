@@ -1,0 +1,26 @@
+.front__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.front__title {
+  font-family: Playball;
+  font-size: 60px;
+  padding-bottom: 15px;
+  color: var(--color-white);
+}
+.front__subtitle {
+  font-family: Roboto;
+  font-size: 100px;
+  color: var(--color-white);
+  text-align: center;
+}
+.front_button {
+  font-family: Roboto;
+  color: var(--color-white);
+  background: transparent;
+  border: solid 2px var(--color-white);
+  text-align: center;
+  padding: 5px 25px 5px 25px;
+}
